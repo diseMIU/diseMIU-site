@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'rtmicon-regular';
-  src: url('../fonts/rtmicons/rtmicon-regular.eot?554c36');
-  src: url('../fonts/rtmicons/rtmicon-regular.eot?554c36#iefix') format('embedded-opentype'),
-       url('../fonts/rtmicons/rtmicon-regular.ttf?554c36') format('truetype'),
-       url('../fonts/rtmicons/rtmicon-regular.woff?554c36') format('woff'),
-       url('../fonts/rtmicons/rtmicon-regular.svg?554c36#rtmicon') format('svg');
+  src: url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.eot?554c36');
+  src: url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.eot?554c36#iefix') format('embedded-opentype'),
+       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.ttf?554c36') format('truetype'),
+       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.woff?554c36') format('woff'),
+       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.svg?554c36#rtmicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,14 +12,23 @@
 
 @font-face {
   font-family: 'rtmicon';
-  src: url('../fonts/rtmicons/rtmicon-regular.eot?554c36');
-  src: url('../fonts/rtmicons/rtmicon-regular.eot?554c36#iefix') format('embedded-opentype'),
-       url('../fonts/rtmicons/rtmicon-regular.ttf?554c36') format('truetype'),
-       url('../fonts/rtmicons/rtmicon-regular.woff?554c36') format('woff'),
-       url('../fonts/rtmicons/rtmicon-regular.svg?554c36#rtmicon') format('svg');
+  src: url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.eot?554c36');
+  src: url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.eot?554c36#iefix') format('embedded-opentype'),
+       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.ttf?554c36') format('truetype'),
+       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.woff?554c36') format('woff'),
+       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.svg?554c36#rtmicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
+}
+
+.elementor-icon i.rtmicon,
+.elementor-icon i.rtmicon::before,
+i.rtmicon,
+i.rtmicon::before {
+  font-family: 'rtmicon-regular', 'rtmicon' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
 }
 
 .rtmicon.rtmicon-accordion:before {
