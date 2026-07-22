@@ -1,35 +1,30 @@
 @font-face {
   font-family: 'rtmicon-regular';
-  src: url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.eot?554c36');
-  src: url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.eot?554c36#iefix') format('embedded-opentype'),
-       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.ttf?554c36') format('truetype'),
-       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.woff?554c36') format('woff'),
-       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.svg?554c36#rtmicon') format('svg');
+  src:  url('https://https://disemiu.github.io/diseMIU-site/wp-content/plugins/rometheme-for-elementor/assets/fonts/rtmicons/rtmicon-regular.eot?u6xsrx');
+  src:  url('https://https://disemiu.github.io/diseMIU-site/wp-content/plugins/rometheme-for-elementor/assets/fonts/rtmicons/rtmicon-regular.eot?u6xsrx#iefix') format('embedded-opentype'),
+    url('https://https://disemiu.github.io/diseMIU-site/wp-content/plugins/rometheme-for-elementor/assets/fonts/rtmicons/rtmicon-regular.ttf?u6xsrx') format('truetype'),
+    url('https://https://disemiu.github.io/diseMIU-site/wp-content/plugins/rometheme-for-elementor/assets/fonts/rtmicons/rtmicon-regular.woff?u6xsrx') format('woff'),
+    url('https://https://disemiu.github.io/diseMIU-site/wp-content/plugins/rometheme-for-elementor/assets/fonts/rtmicons/rtmicon-regular.svg?u6xsrx#rtmicon-regular') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-@font-face {
-  font-family: 'rtmicon';
-  src: url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.eot?554c36');
-  src: url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.eot?554c36#iefix') format('embedded-opentype'),
-       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.ttf?554c36') format('truetype'),
-       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.woff?554c36') format('woff'),
-       url('https://ehlucho.github.io/diseMIU-site/fonts/rtmicon-regular.svg?554c36#rtmicon') format('svg');
-  font-weight: normal;
+.rtmicon{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rtmicon-regular' !important;
+  speak: never;
   font-style: normal;
-  font-display: block;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.elementor-icon i.rtmicon,
-.elementor-icon i.rtmicon::before,
-i.rtmicon,
-i.rtmicon::before {
-  font-family: 'rtmicon-regular', 'rtmicon' !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-}
 
 .rtmicon.rtmicon-accordion:before {
   content: "\e900";
